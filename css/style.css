@@ -1,0 +1,49 @@
+.container,.div1,.div2,.div3,.div1 img{
+    margin: 20px;
+    border: 1px #999 solid;
+}
+.container{
+    background-color: #EEE;
+    height:100%;
+    overflow:hidden;
+}
+.div1,.div2,.div3{
+    background-color: white;
+}
+.div1{
+    width: 200px;
+    float: left;
+}
+.div1 img{
+    float: left;
+}
+.div1 p{
+    margin-left: 80px;
+    width: auto;
+}
+.div2{
+    margin-left: 242px;
+    margin-right: 162px;
+}
+.div2 p{
+    margin: 20px;
+}
+.div3{
+    width: 120px;
+    float: right;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border: 1px #999 solid;
+}
+.div3 img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px #999 solid;
+}
+.div3 img:first-child{
+    margin: 20px;
+}
+
